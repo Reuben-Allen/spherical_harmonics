@@ -17,3 +17,4 @@ Enter the angular quantum number (must be a nonnegative integer):
 Enter the magnetic quantum number (must be an integer between -L and L):
 0
 ```
+![harmonic](https://user-images.githubusercontent.com/47088251/203673386-825f7122-2352-4812-adf6-c67ce2cb838d.jpg)
