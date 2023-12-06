@@ -14,6 +14,7 @@ quantum number and magnetic quantum number.
 """
 
 # import python libraries
+import math
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import cm
@@ -50,7 +51,7 @@ def check_str():
 
 # define function for complex spherical harmonics
 def Y_complex(theta,phi,l,m):
-    coefficient = np.sqrt((2*l+1)*np.math.factorial(l-m)/(4*np.pi*np.math.factorial(l+m)))
+    coefficient = np.sqrt((2*l+1)*math.factorial(l-m)/(4*np.pi*math.factorial(l+m)))
     return coefficient * np.exp(1j*m*phi) * special.lpmv(m,l,np.cos(theta)) # lpmv is the associated legendre polynomial
 
 # define function for real spherical harmonics
